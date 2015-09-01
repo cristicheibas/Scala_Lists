@@ -20,13 +20,14 @@ package com.endava
 object Easy {
 	def main(args: Array[String]) {
 		var toflatten = List(List(1, 1), 2, List(3, List(5, 8)))
-				var list = List('a, 'a, 'a, 'a, 'b, 'c, 'c, 'a, 'a, 'd, 'e, 'e, 'e, 'e)
-				println("7. " + flatten(toflatten))
-				println("8. " + removeDuplicate(list))
-				println("9. " + pack(list))
-				println("10. " + rle(list))
-				println("11. " + mrle(list))
+		var list = List('a, 'a, 'a, 'a, 'b, 'c, 'c, 'a, 'a, 'd, 'e, 'e, 'e, 'e)
+		println("7. " + flatten(toflatten))
+		println("8. " + removeDuplicate(list))
+		println("9. " + pack(list))
+		println("10. " + rle(list))
+		println("11. " + mrle(list))
 	}
+  
 	/**
 	 * Modified Run Length Encoding MRLE
 	 * creates a map from the list with the in the form of (count, element)
